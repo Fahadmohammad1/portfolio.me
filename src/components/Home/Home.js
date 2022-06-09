@@ -1,23 +1,10 @@
 import React from "react";
+import Banner from "./Banner";
 
 const Home = () => {
   return (
     <div>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
-      <h1>helloooooooooooooooooooooooooooooo</h1>
+      <Banner />
     </div>
   );
 };
