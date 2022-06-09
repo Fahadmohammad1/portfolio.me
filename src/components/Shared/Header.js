@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <div class="navbar bg-base-100">
+      <div class="navbar">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -27,10 +27,10 @@ const Header = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Item 1</a>
+                <a href="/">Item 1</a>
               </li>
               <li tabindex="0">
-                <a class="justify-between">
+                <a href="/" class="justify-between">
                   Parent
                   <svg
                     class="fill-current"
@@ -44,54 +44,40 @@ const Header = () => {
                 </a>
                 <ul class="p-2">
                   <li>
-                    <a>Submenu 1</a>
+                    <a href="/">Submenu 1</a>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <a href="/">Submenu 2</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a>Item 3</a>
+                <a href="/">Item 3</a>
               </li>
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-2xl">FAHAD</a>
+          <a href="/" class="btn btn-ghost normal-case text-2xl text-[#62F9D5]">
+            FAHAD
+          </a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
             <li>
-              <a>Item 1</a>
+              <a href="/">Item 1</a>
             </li>
-            <li tabindex="0">
-              <a>
-                Parent
-                <svg
-                  class="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                </svg>
-              </a>
-              <ul class="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
+
             <li>
-              <a>Item 3</a>
+              <a href="/">Item 3</a>
             </li>
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn">Download Resume</a>
+          <a
+            href="/"
+            class="btn btn-outline text-[#62F9D5] hover:bg-[#62F9D5] hover:text-[#0A192F]"
+          >
+            Resume
+          </a>
         </div>
       </div>
     </div>
