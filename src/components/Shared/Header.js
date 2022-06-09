@@ -1,9 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Header = () => {
+  const line = "FAHAD BIN NUR";
+
+  const sentence = {
+    hidden: { opacity: 1 },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 1.0,
+        staggerChildren: 0.09,
+      },
+    },
+  };
+
+  const letter = {
+    hidden: { opacity: 0, y: 50 },
+    visible: {
+      opacity: 1,
+      y: 0,
+    },
+  };
   return (
     <div>
-      <div class="navbar">
+      <div class="navbar lg:px-5">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -29,36 +51,27 @@ const Header = () => {
               <li>
                 <a href="/">Item 1</a>
               </li>
-              <li tabindex="0">
-                <a href="/" class="justify-between">
-                  Parent
-                  <svg
-                    class="fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                  </svg>
-                </a>
-                <ul class="p-2">
-                  <li>
-                    <a href="/">Submenu 1</a>
-                  </li>
-                  <li>
-                    <a href="/">Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
               <li>
                 <a href="/">Item 3</a>
               </li>
             </ul>
           </div>
-          <a href="/" class="btn btn-ghost normal-case text-2xl text-[#62F9D5]">
-            FAHAD
-          </a>
+          <Link to="/">
+            <motion.h3
+              className="load-screen--message text-[#62F9D5] text-xs lg:text-2xl"
+              variants={sentence}
+              initial="hidden"
+              animate="visible"
+            >
+              {line.split("").map((char, index) => {
+                return (
+                  <motion.span key={char + "-" + index} variants={letter}>
+                    {char}
+                  </motion.span>
+                );
+              })}
+            </motion.h3>
+          </Link>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
@@ -74,7 +87,7 @@ const Header = () => {
         <div class="navbar-end">
           <a
             href="/"
-            class="btn btn-outline text-[#62F9D5] hover:bg-[#62F9D5] hover:text-[#0A192F]"
+            class="btn btn-sm lg:btn-md btn-outline text-[#62F9D5] hover:bg-[#62F9D5] hover:text-[#0A192F]"
           >
             Resume
           </a>

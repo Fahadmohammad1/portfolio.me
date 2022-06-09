@@ -1,6 +1,6 @@
 import { AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
-import { Route, Router, Routes, useLocation } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import "./Global/ScrollBar.css";
 import NormalizeStyle from "./Global/NormalizeStyle";
 import Loader from "./components/PageLoader/Loader";
@@ -18,14 +18,13 @@ function App() {
   }, []);
   return (
     <div className="App bg-[#0A192F]">
+      {!loading && <Header />}
       <NormalizeStyle />
       <AnimatePresence exitBeforeEnter>
-        <Header />
         <Routes location={location} key={location.key}>
           <Route exact path="/" element={loading ? <Loader /> : <Home />} />
         </Routes>
       </AnimatePresence>
-      {/* </NormalizeStyle> */}
     </div>
   );
 }

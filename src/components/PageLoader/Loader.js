@@ -28,7 +28,9 @@ const Loader = () => {
     <>
       <div className="loader-container">
         <div className="loader-wrap">
-          <p>Welcome to Fahad's Portfolio!</p>
+          <h2 className="lg:text-2xl font-mono text-[#62F9D5]">
+            Welcome to Fahad's Portfolio!
+          </h2>
           <motion.div
             className="loader-bar"
             variants={LoaderVariant}
@@ -42,7 +44,9 @@ const Loader = () => {
             animate={{ left: "93%" }}
             transition={{ duration: 2.3, ease: "linear" }}
           >
-            <h3>{test && count}%</h3>
+            <h3 className="text-[#62F9D5] text-xl font-mono">
+              {test && count}%
+            </h3>
           </motion.div>
         </div>
       </div>
