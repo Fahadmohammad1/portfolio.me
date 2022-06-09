@@ -49,10 +49,10 @@ const Header = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a href="/">Item 1</a>
+                <a href="/">About me</a>
               </li>
               <li>
-                <a href="/">Item 3</a>
+                <a href="/">Blog</a>
               </li>
             </ul>
           </div>
@@ -76,11 +76,21 @@ const Header = () => {
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
             <li>
-              <a href="/">Item 1</a>
+              <a
+                href="/"
+                className="text-white border-b-2 border-[border-b-2 border-[#0A192F] hover:border-b-2 hover:border-[#62F9D5]"
+              >
+                About me
+              </a>
             </li>
 
             <li>
-              <a href="/">Item 3</a>
+              <a
+                href="/"
+                className="text-white hover:border-b-2 border-[#62F9D5]"
+              >
+                Blog
+              </a>
             </li>
           </ul>
         </div>
