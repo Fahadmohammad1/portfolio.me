@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="container mx-auto px-10">
+    <div className="container mx-auto lg:px-10 px-5">
       <div class="hero min-h-screen">
         <div class="hero-content flex-col lg:flex-row-reverse">
           <img

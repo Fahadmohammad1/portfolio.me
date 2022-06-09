@@ -25,7 +25,7 @@ const Header = () => {
   };
   return (
     <div>
-      <div class="navbar lg:px-5">
+      <div class="navbar lg:px-5 lg:container mx-auto">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -34,7 +34,7 @@ const Header = () => {
                 class="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                stroke="#62F9D5"
               >
                 <path
                   stroke-linecap="round"

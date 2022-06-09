@@ -17,7 +17,7 @@ function App() {
     }, 2500);
   }, []);
   return (
-    <div className="App bg-[#0A192F]">
+    <div className="App bg-[#0A192F] font-serif">
       {!loading && <Header />}
       <NormalizeStyle />
       <AnimatePresence exitBeforeEnter>
