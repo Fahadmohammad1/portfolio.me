@@ -15,7 +15,10 @@ const Services = () => {
             <div class="card-body">
               <img className="w-2/3 mx-auto" src={javascript} alt="" />
               <h2 class="card-title text-xl">FrontEnd</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>
+                HTML, CSS, and JS is very neccesary for frontend development.
+                This are the basics
+              </p>
             </div>
           </div>
         </div>
@@ -24,7 +27,10 @@ const Services = () => {
             <div class="card-body">
               <img className="w-2/3 mx-auto" src={backend} alt="" />
               <h2 class="card-title">BackEnd</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>
+                I use Mongo DB for database management and Node js for server in
+                Backend
+              </p>
             </div>
           </div>
         </div>
@@ -33,7 +39,10 @@ const Services = () => {
             <div class="card-body">
               <img className="w-2/3 mx-auto" src={mern} alt="" />
               <h2 class="card-title">MERN Stack</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>
+                Recently I did some MERN Stack project. But I want to explore
+                more about MERN.
+              </p>
             </div>
           </div>
         </div>
