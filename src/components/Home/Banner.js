@@ -8,9 +8,9 @@ const Banner = () => {
         <div class="hero-content flex-col lg:flex-row-reverse">
           <img src={coding} class="w-50 lg:w-auto rounded-xl" alt="" />
           <div className="text-white lg:w-2/3">
-            <p className="text-primary lg:pl-1">Hi, Iam Fahad</p>
+            <p className="text-primary ">Hi, Iam Fahad</p>
             <h1 class="lg:text-7xl text-4xl font-bold py-2">
-              MERN Stack Web Developer
+              Junior Frontend Developer
             </h1>
             <p class="py-6">
               I have mid-level experience in developing full-stack dynamic

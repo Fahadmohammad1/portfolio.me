@@ -4,7 +4,7 @@ import { FaLinkedin, FaFacebook, FaGithub } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section class="relative py-16 bg-blueGray-200 lg:mt-54 mt-72">
+    <section id="about" class="relative py-16 bg-blueGray-200 lg:mt-54 mt-72">
       <div class="container mx-auto px-4">
         <div class="relative flex flex-col min-w-0 break-words bg-accent w-full mb-6 shadow-xl rounded-lg -mt-64">
           <div class="px-6">

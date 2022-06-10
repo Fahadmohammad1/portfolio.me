@@ -25,8 +25,8 @@ const Header = () => {
   };
   return (
     <div>
-      <div class="navbar lg:px-5 lg:container mx-auto">
-        <div class="navbar-start">
+      <div class="navbar lg:px-5 lg:container mx-auto flex justify-between">
+        <div class="lg:navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
               <svg
@@ -58,7 +58,7 @@ const Header = () => {
           </div>
           <Link to="/">
             <motion.h3
-              className="load-screen--message text-primary text-xs lg:text-2xl"
+              className="load-screen--message text-primary text-lg lg:text-2xl"
               variants={sentence}
               initial="hidden"
               animate="visible"
@@ -73,7 +73,7 @@ const Header = () => {
             </motion.h3>
           </Link>
         </div>
-        <div class="navbar-center hidden lg:flex">
+        <div class="lg:navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
             <li>
               <a
@@ -94,13 +94,15 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div class="navbar-end">
-          <a
-            href="/"
-            class="btn btn-sm lg:btn-md btn-outline text-primary hover:bg-primary hover:text-[#0A192F]"
+        <div class="lg:navbar-end">
+          <Link
+            to="../../assets/Fahad.bin.nur-resume.pdf"
+            target="_blank"
+            download
+            class="btn btn-xs lg:btn-md btn-outline text-primary hover:bg-primary hover:text-[#0A192F]"
           >
             Resume
-          </a>
+          </Link>
         </div>
       </div>
     </div>
