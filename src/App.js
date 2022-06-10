@@ -8,6 +8,7 @@ import Header from "./components/Shared/Header";
 import Home from "./components/Home/Home";
 import { ToastContainer } from "react-toastify";
 import Blog from "./components/Blog/Blog";
+import NotFound from "./components/Shared/NotFound";
 
 function App() {
   const location = useLocation();
@@ -26,6 +27,7 @@ function App() {
         <Routes location={location} key={location.key}>
           <Route exact path="/" element={loading ? <Loader /> : <Home />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </AnimatePresence>
       <ToastContainer />
