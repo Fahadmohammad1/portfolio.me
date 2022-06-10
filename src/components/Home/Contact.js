@@ -27,19 +27,37 @@ const Contact = () => {
       );
   };
   return (
-    <div className="pt-16">
-      <h1 className="text-2xl text-center text-primary">Connect with me</h1>
-      <div className="flex">
+    <div className="pt-16 container mx-auto">
+      <h1 className="text-2xl text-center text-primary">___Contact me___</h1>
+      <div className="md:grid grid-cols-2 gap-10 items-center">
         <img src={email} alt="" />
         <div>
-          <form className="flex flex-col" ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
-            <input type="text" name="user_name" />
-            <label>Email</label>
-            <input type="email" name="user_email" />
-            <label>Message</label>
-            <textarea name="message" />
-            <input type="submit" value="Send" />
+          <form className="flex flex-col px-10" ref={form} onSubmit={sendEmail}>
+            <label className="text-gray-200">Name</label>
+            <input
+              type="text"
+              placeholder="Name"
+              class="input input-bordered input-primary w-auto"
+              name="user_name"
+            />
+            <label className="text-gray-200">Email</label>
+            <input
+              type="email"
+              placeholder="Email"
+              class="input input-bordered input-primary w-auto"
+              name="user_email"
+            />
+            <label className="text-gray-200">Message</label>
+            <textarea
+              name="message"
+              class="textarea textarea-primary"
+              placeholder="message"
+            />
+            <input
+              type="submit"
+              class="btn btn-sm mt-3 lg:btn-md btn-outline text-primary hover:bg-primary hover:text-[#0A192F]"
+              value="Send"
+            />
           </form>
         </div>
       </div>
