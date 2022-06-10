@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import coding from "../../assets/images/coding.gif";
 
 const Banner = () => {
@@ -21,7 +22,7 @@ const Banner = () => {
               an awesome full-stack developer.
             </p>
             <button class="btn btn-sm lg:btn-md btn-outline text-primary hover:bg-primary hover:text-[#0A192F]">
-              Know More
+              <Link to="#about">Know More</Link>
             </button>
           </div>
         </div>

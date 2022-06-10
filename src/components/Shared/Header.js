@@ -49,10 +49,36 @@ const Header = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a href="#about">About me</a>
+                <Link
+                  to="/"
+                  className="text-black border-b-2 border-[border-b-2 border-white hover:border-b-2 hover:border-[#62F9D5]"
+                >
+                  Home
+                </Link>
               </li>
               <li>
-                <a href="/">Blog</a>
+                <a
+                  href="#about"
+                  className="text-black border-b-2 border-white hover:border-b-2 hover:border-[#62F9D5]"
+                >
+                  About me
+                </a>
+              </li>
+              <li>
+                <Link
+                  to="/blog"
+                  className="text-black border-b-2 border-white hover:border-b-2 hover:border-[#62F9D5]"
+                >
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="text-black border-b-2 border-white hover:border-b-2 hover:border-[#62F9D5]"
+                >
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
@@ -76,6 +102,14 @@ const Header = () => {
         <div class="lg:navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
             <li>
+              <Link
+                to="/"
+                className="text-white border-b-2 border-[border-b-2 border-white hover:border-b-2 hover:border-[#62F9D5]"
+              >
+                Home
+              </Link>
+            </li>
+            <li>
               <a
                 href="#about"
                 className="text-white border-b-2 border-[border-b-2 border-white hover:border-b-2 hover:border-[#62F9D5]"
@@ -85,11 +119,19 @@ const Header = () => {
             </li>
 
             <li>
-              <a
-                href="/"
+              <Link
+                to="/blog"
                 className="text-white border-b-2 border-white hover:border-b-2 hover:border-[#62F9D5]"
               >
                 Blog
+              </Link>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className="text-white border-b-2 border-white hover:border-b-2 hover:border-[#62F9D5]"
+              >
+                Contact
               </a>
             </li>
           </ul>

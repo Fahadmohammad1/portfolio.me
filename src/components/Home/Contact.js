@@ -2,12 +2,17 @@ import React from "react";
 import email from "../../assets/images/email.gif";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+    e.target.user_name.value = "";
+    e.target.user_email.value = "";
+    e.target.message.value = "";
 
     emailjs
       .sendForm(
@@ -18,16 +23,15 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
-          console.log("message sent");
+          toast.success("Email Sent");
         },
         (error) => {
-          console.log(error.text);
+          toast.error("Failed to sent email");
         }
       );
   };
   return (
-    <div className="pt-16 container mx-auto">
+    <div id="contact" className="py-16 container mx-auto">
       <h1 className="text-2xl text-center text-primary">___Contact me___</h1>
       <div className="md:grid grid-cols-2 gap-10 items-center">
         <img src={email} alt="" />

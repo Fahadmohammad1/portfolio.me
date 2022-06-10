@@ -6,6 +6,8 @@ import NormalizeStyle from "./Global/NormalizeStyle";
 import Loader from "./components/PageLoader/Loader";
 import Header from "./components/Shared/Header";
 import Home from "./components/Home/Home";
+import { ToastContainer } from "react-toastify";
+import Blog from "./components/Blog/Blog";
 
 function App() {
   const location = useLocation();
@@ -23,8 +25,10 @@ function App() {
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.key}>
           <Route exact path="/" element={loading ? <Loader /> : <Home />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </AnimatePresence>
+      <ToastContainer />
     </div>
   );
 }

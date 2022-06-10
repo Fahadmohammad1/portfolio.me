@@ -4,7 +4,7 @@ import { FaLinkedin, FaFacebook, FaGithub } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section id="about" class="relative py-16 bg-blueGray-200 lg:mt-54 mt-72">
+    <section id="about" class="relative py-16 bg-blueGray-200 lg:mt-54 mt-80">
       <div class="container mx-auto px-4">
         <div class="relative flex flex-col min-w-0 break-words bg-accent w-full mb-6 shadow-xl rounded-lg -mt-64">
           <div class="px-6">
@@ -19,7 +19,7 @@ const About = () => {
                 </div>
               </div>
               <div class="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
-                <div class="py-6 px-3 mt-32 sm:mt-0">
+                <div class="py-6 px-3 mt-32 sm:mt-0 flex justify-center">
                   <button class="btn btn-sm lg:btn-md btn-outline text-primary hover:bg-primary hover:text-[#0A192F]">
                     Connect
                   </button>
@@ -84,9 +84,6 @@ const About = () => {
                     intimate feel with a solid groove structure. An artist of
                     considerable range.
                   </p>
-                  <a href="#pablo" class="font-normal text-pink-500">
-                    Show more
-                  </a>
                 </div>
               </div>
             </div>
