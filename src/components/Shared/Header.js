@@ -49,7 +49,7 @@ const Header = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a href="/">About me</a>
+                <a href="#about">About me</a>
               </li>
               <li>
                 <a href="/">Blog</a>
@@ -58,7 +58,7 @@ const Header = () => {
           </div>
           <Link to="/">
             <motion.h3
-              className="load-screen--message text-[#62F9D5] text-xs lg:text-2xl"
+              className="load-screen--message text-primary text-xs lg:text-2xl"
               variants={sentence}
               initial="hidden"
               animate="visible"
@@ -77,7 +77,7 @@ const Header = () => {
           <ul class="menu menu-horizontal p-0">
             <li>
               <a
-                href="/"
+                href="#about"
                 className="text-white border-b-2 border-[border-b-2 border-[#0A192F] hover:border-b-2 hover:border-[#62F9D5]"
               >
                 About me
@@ -97,7 +97,7 @@ const Header = () => {
         <div class="navbar-end">
           <a
             href="/"
-            class="btn btn-sm lg:btn-md btn-outline text-[#62F9D5] hover:bg-[#62F9D5] hover:text-[#0A192F]"
+            class="btn btn-sm lg:btn-md btn-outline text-primary hover:bg-primary hover:text-[#0A192F]"
           >
             Resume
           </a>

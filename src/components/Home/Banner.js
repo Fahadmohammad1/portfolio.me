@@ -8,7 +8,7 @@ const Banner = () => {
         <div class="hero-content flex-col lg:flex-row-reverse">
           <img src={coding} class="w-50 lg:w-auto rounded-xl" alt="" />
           <div className="text-white lg:w-2/3">
-            <p className="text-[#62F9D5] lg:pl-1">Hi, Iam Fahad</p>
+            <p className="text-primary lg:pl-1">Hi, Iam Fahad</p>
             <h1 class="lg:text-7xl text-4xl font-bold py-2">
               MERN Stack Web Developer
             </h1>
@@ -20,7 +20,7 @@ const Banner = () => {
               React js, Node js, Express js, and Mongo DB. My goal is to become
               an awesome full-stack developer.
             </p>
-            <button class="btn btn-sm lg:btn-md btn-outline text-[#62F9D5] hover:bg-[#62F9D5] hover:text-[#0A192F]">
+            <button class="btn btn-sm lg:btn-md btn-outline text-primary hover:bg-primary hover:text-[#0A192F]">
               Get Started
             </button>
           </div>
