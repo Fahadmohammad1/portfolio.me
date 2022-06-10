@@ -11,7 +11,7 @@ const Services = () => {
       </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3">
         <div>
-          <div class="card max-w-sm mb-4 transition ease-in-out delay-50 bg-white hover:bg-primary hover:scale-90 shadow-xl mx-auto">
+          <div class="card max-w-sm mb-4 transition ease-in-out delay-50 bg-gray-200 hover:bg-primary hover:scale-90 shadow-xl mx-auto border-b-8 border-rose-600 hover:border-b-0">
             <div class="card-body">
               <img className="w-2/3 mx-auto" src={javascript} alt="" />
               <h2 class="card-title text-xl">FrontEnd</h2>
@@ -20,7 +20,7 @@ const Services = () => {
           </div>
         </div>
         <div>
-          <div class="card max-w-sm mb-4 transition ease-in-out delay-50 bg-white hover:bg-primary hover:scale-90 shadow-xl mx-auto">
+          <div class="card max-w-sm mb-4 transition ease-in-out delay-50 bg-gray-200 hover:bg-primary hover:scale-90 shadow-xl mx-auto border-b-8 border-sky-400 hover:border-b-0">
             <div class="card-body">
               <img className="w-2/3 mx-auto" src={backend} alt="" />
               <h2 class="card-title">BackEnd</h2>
@@ -29,7 +29,7 @@ const Services = () => {
           </div>
         </div>
         <div>
-          <div class="card max-w-sm  transition ease-in-out delay-50 bg-white hover:bg-primary hover:scale-90 shadow-xl mx-auto">
+          <div class="card max-w-sm mb-4 transition ease-in-out delay-50 bg-gray-200 hover:bg-primary hover:scale-90 shadow-xl mx-auto border-b-8 border-fuchsia-500 hover:border-b-0">
             <div class="card-body">
               <img className="w-2/3 mx-auto" src={mern} alt="" />
               <h2 class="card-title">MERN Stack</h2>
