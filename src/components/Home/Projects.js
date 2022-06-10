@@ -23,7 +23,7 @@ const Projects = () => {
               </a>
 
               <a
-                href="/"
+                href="https://perfumes-warhouse.web.app/"
                 class="hover:text-primary text-gray-200 font-semibold"
               >
                 {" "}
@@ -62,7 +62,7 @@ const Projects = () => {
               </a>
 
               <a
-                href="/"
+                href="https://mars-technology-630b3.web.app/"
                 class="hover:text-primary text-gray-200 font-semibold"
               >
                 MARS TECHNOLOGY
@@ -72,24 +72,21 @@ const Projects = () => {
                 href="/"
                 class="hover:text-purple-500 text-sm text-gray-400 -mt-1"
               >
-                {" "}
-                78.4K viewers{" "}
+                Manufacturer Company Website
               </a>
 
               <div class="flex flex-row flex-wrap gap-2">
                 <a
                   href="/"
-                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"
+                  class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1"
                 >
-                  {" "}
-                  Shooter{" "}
+                  <FaGithub /> Client
                 </a>
                 <a
                   href="/"
-                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"
+                  class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1"
                 >
-                  {" "}
-                  FPS{" "}
+                  <FaGithub /> Server
                 </a>
               </div>
             </div>
@@ -106,31 +103,28 @@ const Projects = () => {
                 href="https://personal-wedding-photographer.web.app/"
                 class="hover:text-primary text-gray-200 font-semibold"
               >
-                PERSONAL PHOTOGRAPHY
+                SINDID'S PHOTOGRAPHY
               </a>
 
               <a
                 href="/"
                 class="hover:text-purple-500 text-sm text-gray-400 -mt-1"
               >
-                {" "}
-                78.4K viewers{" "}
+                Photgrapher Website
               </a>
 
               <div class="flex flex-row flex-wrap gap-2">
                 <a
                   href="/"
-                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"
+                  class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1"
                 >
-                  {" "}
-                  Shooter{" "}
+                  <FaGithub /> Client
                 </a>
                 <a
                   href="/"
-                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"
+                  class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1"
                 >
-                  {" "}
-                  FPS{" "}
+                  <FaGithub /> Server
                 </a>
               </div>
             </div>

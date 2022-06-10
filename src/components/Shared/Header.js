@@ -78,7 +78,7 @@ const Header = () => {
             <li>
               <a
                 href="#about"
-                className="text-white border-b-2 border-[border-b-2 border-[#0A192F] hover:border-b-2 hover:border-[#62F9D5]"
+                className="text-white border-b-2 border-[border-b-2 border-white hover:border-b-2 hover:border-[#62F9D5]"
               >
                 About me
               </a>
@@ -87,7 +87,7 @@ const Header = () => {
             <li>
               <a
                 href="/"
-                className="text-white hover:border-b-2 border-[#62F9D5]"
+                className="text-white border-b-2 border-white hover:border-b-2 hover:border-[#62F9D5]"
               >
                 Blog
               </a>

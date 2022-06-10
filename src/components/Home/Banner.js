@@ -21,7 +21,7 @@ const Banner = () => {
               an awesome full-stack developer.
             </p>
             <button class="btn btn-sm lg:btn-md btn-outline text-primary hover:bg-primary hover:text-[#0A192F]">
-              Get Started
+              Know More
             </button>
           </div>
         </div>
