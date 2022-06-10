@@ -1,6 +1,8 @@
 import React from "react";
 import perfume from "../../assets/images/perfume.png";
 import mars from "../../assets/images/mars.png";
+import photographer from "../../assets/images/photographer.png";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -22,7 +24,7 @@ const Projects = () => {
 
               <a
                 href="/"
-                class="hover:text-purple-500 text-gray-200 font-semibold"
+                class="hover:text-primary text-gray-200 font-semibold"
               >
                 {" "}
                 PERFUME STOCKPILE
@@ -32,24 +34,21 @@ const Projects = () => {
                 href="/"
                 class="hover:text-purple-500 text-sm text-gray-400 -mt-1"
               >
-                {" "}
-                78.4K viewers{" "}
+                Warehouse Management Website
               </a>
 
               <div class="flex flex-row flex-wrap gap-2">
                 <a
                   href="/"
-                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"
+                  class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1"
                 >
-                  {" "}
-                  Shooter{" "}
+                  <FaGithub /> Client
                 </a>
                 <a
                   href="/"
-                  class="hover:bg-gray-600 text-gray-300 text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full"
+                  class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1"
                 >
-                  {" "}
-                  FPS{" "}
+                  <FaGithub /> Server
                 </a>
               </div>
             </div>
@@ -64,7 +63,7 @@ const Projects = () => {
 
               <a
                 href="/"
-                class="hover:text-purple-500 text-gray-200 font-semibold"
+                class="hover:text-primary text-gray-200 font-semibold"
               >
                 MARS TECHNOLOGY
               </a>
@@ -98,14 +97,14 @@ const Projects = () => {
               <a href="/" class="bg-primary">
                 <img
                   alt=""
-                  src={perfume}
+                  src={photographer}
                   class="hover:translate-x-1 hover:-translate-y-1 delay-50 duration-100"
                 />
               </a>
 
               <a
-                href="/"
-                class="hover:text-purple-500 text-gray-200 font-semibold"
+                href="https://personal-wedding-photographer.web.app/"
+                class="hover:text-primary text-gray-200 font-semibold"
               >
                 PERSONAL PHOTOGRAPHY
               </a>
