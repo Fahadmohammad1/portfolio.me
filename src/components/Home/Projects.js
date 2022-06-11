@@ -30,26 +30,26 @@ const Projects = () => {
                 PERFUME STOCKPILE
               </a>
 
-              <a
-                href="/"
-                class="hover:text-purple-500 text-sm text-gray-400 -mt-1"
-              >
+              <span class="hover:text-purple-500 text-sm text-gray-400 -mt-1">
                 Warehouse Management Website
-              </a>
+              </span>
 
               <div class="flex flex-row flex-wrap gap-2">
                 <a
-                  href="/"
+                  href="https://github.com/Fahadmohammad1/perfume-stockpile-client"
                   class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1"
                 >
                   <FaGithub /> Client
                 </a>
                 <a
-                  href="/"
+                  href="https://github.com/Fahadmohammad1/perfume-stockpile-server"
                   class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1"
                 >
                   <FaGithub /> Server
                 </a>
+                <span class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1 cursor-pointer">
+                  Details
+                </span>
               </div>
             </div>
             <div class="flex flex-col gap-1">
@@ -68,26 +68,26 @@ const Projects = () => {
                 MARS TECHNOLOGY
               </a>
 
-              <a
-                href="/"
-                class="hover:text-purple-500 text-sm text-gray-400 -mt-1"
-              >
+              <span class="hover:text-purple-500 text-sm text-gray-400 -mt-1">
                 Manufacturer Company Website
-              </a>
+              </span>
 
               <div class="flex flex-row flex-wrap gap-2">
                 <a
-                  href="/"
+                  href="https://github.com/Fahadmohammad1/manufacturer-website-client"
                   class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1"
                 >
                   <FaGithub /> Client
                 </a>
                 <a
-                  href="/"
+                  href="https://github.com/Fahadmohammad1/manufacturer-website-server"
                   class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1"
                 >
                   <FaGithub /> Server
                 </a>
+                <span class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1 cursor-pointer">
+                  Details
+                </span>
               </div>
             </div>
             <div class="flex flex-col gap-1">
@@ -106,26 +106,20 @@ const Projects = () => {
                 SINDID'S PHOTOGRAPHY
               </a>
 
-              <a
-                href="/"
-                class="hover:text-purple-500 text-sm text-gray-400 -mt-1"
-              >
+              <span class="hover:text-purple-500 text-sm text-gray-400 -mt-1">
                 Photgrapher Website
-              </a>
+              </span>
 
               <div class="flex flex-row flex-wrap gap-2">
                 <a
-                  href="/"
+                  href="https://github.com/Fahadmohammad1/personal-photographer"
                   class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1"
                 >
                   <FaGithub /> Client
                 </a>
-                <a
-                  href="/"
-                  class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1"
-                >
-                  <FaGithub /> Server
-                </a>
+                <span class="hover:bg-gray-600 text-primary text-xs font-semibold bg-gray-700 px-2 py-1 rounded-full flex gap-1 cursor-pointer">
+                  Details
+                </span>
               </div>
             </div>
           </div>

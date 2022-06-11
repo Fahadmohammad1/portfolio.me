@@ -78,11 +78,11 @@ const About = () => {
               <div class="flex flex-wrap justify-center">
                 <div class="w-full lg:w-9/12 px-4">
                   <p class="mb-4 text-lg leading-relaxed text-white">
-                    An artist of considerable range, Jenna the name taken by
-                    Melbourne-raised, Brooklyn-based Nick Murphy writes,
-                    performs and records all of his own music, giving it a warm,
-                    intimate feel with a solid groove structure. An artist of
-                    considerable range.
+                    I want to be a full-stack web developer. I spend more than 8
+                    hours daily coding. I always try to explore new new
+                    technology. Sometimes I become depressed for errors in my
+                    code. But I am never afraid of errors I try my best to solve
+                    the mistakes.
                   </p>
                 </div>
               </div>

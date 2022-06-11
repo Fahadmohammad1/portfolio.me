@@ -28,8 +28,8 @@ const Services = () => {
               <img className="w-2/3 mx-auto" src={backend} alt="" />
               <h2 class="card-title">BackEnd</h2>
               <p>
-                I use Mongo DB for database management and Node js for server in
-                Backend
+                I use Mongo DB for database management and Node js for handle
+                server in Backend
               </p>
             </div>
           </div>
