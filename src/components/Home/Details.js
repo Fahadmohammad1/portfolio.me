@@ -22,13 +22,13 @@ const Details = () => {
   }
 
   return (
-    <div>
+    <div className="px-2 lg:px-0">
       {singleProject && (
         <div class="lg:px-20 md:px-6 px-4 md:py-12 py-8">
           <div class="lg:flex items-center justify-between">
             <div class="lg:w-1/3">
               <h1 class="text-4xl font-semibold leading-9 text-primary">
-                {singleProject.name}
+                <a href={singleProject.live}>{singleProject.name}</a>
               </h1>
               <p class="text-base leading-6 mt-4 text-gray-600 dark:text-gray-100">
                 {singleProject.description}

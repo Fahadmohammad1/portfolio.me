@@ -34,9 +34,9 @@
     "image3": "https://i.ibb.co/YQRj8dX/Screenshot-2022-06-11-183446.png",
     "live": "https://personal-wedding-photographer.web.app/",
     "client": "https://github.com/Fahadmohammad1/personal-photographer",
-    "server": "This is a Photography website. A website for a indivitual photgrapher. He shoot photo for different kinds of events. His packages list are given on the website. ",
-    "description": "REACT,FIREBASE, REACT-BOOTSTRAP, REACT-TOASTIFY, FIREBASE HOOK, ",
-    "technology": "REACT",
+    "server": "",
+    "description": "This is a Photography website. A website for a indivitual photgrapher. He shoot photo for different kinds of events. His packages list are given on the website. ",
+    "technology": "REACT,FIREBASE, REACT-BOOTSTRAP, REACT-TOASTIFY, FIREBASE HOOK",
     "category": "Individual Photgrapher Website"
   }
 ]
