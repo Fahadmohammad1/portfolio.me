@@ -34,7 +34,7 @@ const Contact = () => {
     <div id="contact" className="py-16 container mx-auto">
       <h1 className="text-2xl text-center text-primary">___Contact me___</h1>
       <div className="md:grid grid-cols-2 gap-10 items-center justify-center">
-        <img src={email} alt="" />
+        <img className="mx-auto" src={email} alt="" />
         <div>
           <form className="flex flex-col px-10" ref={form} onSubmit={sendEmail}>
             <label className="text-gray-200">Name</label>

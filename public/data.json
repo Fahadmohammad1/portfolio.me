@@ -8,8 +8,10 @@
     "live": "https://perfumes-warhouse.web.app/",
     "client": "https://github.com/Fahadmohammad1/perfume-stockpile-client",
     "server": "https://github.com/Fahadmohammad1/perfume-stockpile-server",
+
     "description": "This is a Warehouse website. You can stock your product on this website You can manage your product on the My Items page. On the home page, you can see only 6 items. On the inventory page, you can see all items. You can delete or update your stock on this site. If you deliverd your product the quantity will decrease.",
-    "technology": "REACT, TAILWIND, DAISY UI, FIREBASE, AXIOS, REACT-TOASTIFY, DOTENV, MONGO DB, EXPRESS JS, NODE JS, FIREBASE-HOOK"
+    "technology": "REACT, TAILWIND, DAISY UI, FIREBASE, AXIOS, REACT-TOASTIFY, DOTENV, MONGO DB, EXPRESS JS, NODE JS, FIREBASE-HOOK",
+    "category": "Warehouse Managment Website"
   },
   {
     "id": 2,
@@ -21,7 +23,8 @@
     "client": "https://github.com/Fahadmohammad1/manufacturer-website-client",
     "server": "https://github.com/Fahadmohammad1/manufacturer-website-server",
     "description": "This is a Manufacturer Website. Anyone can order product for their buisness. In dashboard user can see all order and add a riview.User and admin can update profile. There is some admin specific route like 'Make admin' and 'Manage all order'.",
-    "technology": "REACT, TAILWIND, DAISY UI, FIREBASE, AXIOS, REACT-QUERY, REACT-TOASTIFY, DOTENV, MONGO DB, EXPRESS JS, NODE JS, FIREBASE-HOOK"
+    "technology": "REACT, TAILWIND, DAISY UI, FIREBASE, AXIOS, REACT-QUERY, REACT-TOASTIFY, DOTENV, MONGO DB, EXPRESS JS, NODE JS, FIREBASE-HOOK",
+    "category": "Manufacturer Company Website"
   },
   {
     "id": 3,
@@ -33,6 +36,7 @@
     "client": "https://github.com/Fahadmohammad1/personal-photographer",
     "server": "This is a Photography website. A website for a indivitual photgrapher. He shoot photo for different kinds of events. His packages list are given on the website. ",
     "description": "REACT,FIREBASE, REACT-BOOTSTRAP, REACT-TOASTIFY, FIREBASE HOOK, ",
-    "technology": "REACT"
+    "technology": "REACT",
+    "category": "Individual Photgrapher Website"
   }
 ]

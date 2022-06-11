@@ -9,7 +9,7 @@ import Home from "./components/Home/Home";
 import { ToastContainer } from "react-toastify";
 import Blog from "./components/Blog/Blog";
 import NotFound from "./components/Shared/NotFound";
-import Projects from "./components/Home/Projects";
+import Details from "./components/Home/Details";
 
 function App() {
   const location = useLocation();
@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/" element={loading ? <Loader /> : <Home />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/project/:id" element={<Projects />} />
+          <Route path="/details/:id" element={<Details />} />
         </Routes>
       </AnimatePresence>
       <ToastContainer />
